@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="QAtoQE_Framework(failed)">
+    <classes>
+      <class name="base.baseMethods.SmokeTest1">
+        <methods>
+          <include name="TC002"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- base.baseMethods.SmokeTest1 -->
+    </classes>
+  </test> <!-- QAtoQE_Framework(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
